@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    {
+      "id": "AlphaAI",
+      "type": "Company",
+      "properties": {}
+    },
+    {
+      "id": "엣지 AI",
+      "type": "Technology",
+      "properties": {}
+    },
+    {
+      "id": "김민준",
+      "type": "Person",
+      "properties": {}
+    },
+    {
+      "id": "서울대학교 컴퓨터공학과",
+      "type": "Organization",
+      "properties": {}
+    },
+    {
+      "id": "CEO",
+      "type": "Position",
+      "properties": {}
+    },
+    {
+      "id": "실리콘밸리",
+      "type": "Location",
+      "properties": {}
+    },
+    {
+      "id": "AI 스타트업",
+      "type": "Industry",
+      "properties": {}
+    }
+  ],
+  "relationships": [
+    {
+      "source": "김민준",
+      "target": "AlphaAI",
+      "type": "CO_FOUNDED",
+      "properties": {}
+    },
+    {
+      "source": "김민준",
+      "target": "CEO",
+      "type": "OCCUPIES_POSITION",
+      "properties": {}
+    },
+    {
+      "source": "김민준",
+      "target": "서울대학교 컴퓨터공학과",
+      "type": "GRADUATED_FROM",
+      "properties": {}
+    },
+    {
+      "source": "김민준",
+      "target": "실리콘밸리",
+      "type": "WORKED_IN",
+      "properties": {}
+    },
+    {
+      "source": "김민준",
+      "target": "엣지 AI",
+      "type": "SPECIALIZES_IN",
+      "properties": {}
+    },
+    {
+      "source": "AlphaAI",
+      "target": "AI 스타트업",
+      "type": "FIELD",
+      "properties": {}
+    }
+  ],
+  "source": {
+    "id": "basic_vs_graph_data-1",
+    "source": "basic_vs_graph_data",
+    "content": "## 한국 테크 스타트업 생태계 분석 보고서\n\n2020–2024 투자·인물·기술 관계 종합 연구\n\n## 1. 주요 인물 프로필\n\n## 1-1. AlphaAI 핵심 인물\n\n김민준은 2020년 AlphaAI를 공동 창업하며 초대 CEO를 맡았다. 그는 서울대학교 컴퓨터공학과를 졸업한 뒤 실리콘밸리에서 5년간 근무한 경험을 바탕으로 엣지 AI 분야에 뛰어들었다. 창업 당시 그의 나이는 34세였으며, 국내 AI 스타트업 씬에서 '조용한 기술자'로 불리던 인물이었다."
+  }
+}
